@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+div{
+    box-shadow: black 5px;
+}
+
+/*Títulos*/
+
+h1, h2{
+    background-color: rgb(54, 190, 235);
+    color: white;
+    padding: 2%;
+}
+
+
+/*Resumo*/
+
+.perfil{
+    text-align:justify;
+    margin:5%;
+    border-style: outset;
+}
+
+.sub-perfil{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2%;
+    padding: 2%;
+}
+
+.perfil img{
+    border-radius: 50%;
+}
+
+.perfil p{
+    grid-column: 2/4;
+}
+
+
+/*Contatos*/
+
+.contatos{
+    text-align:justify;
+    margin:5%;
+    border-style: outset;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(54, 190, 235);
+}
+
+li{
+    padding: 1%;
+    margin-left: 20px;
+    list-style: none;
+    
+}
+
+
+
+/*Rodapé*/
+
+footer{
+    background-color: rgb(54, 190, 235);
+    color: white;
+    font-size: small;
+    padding: 1%;
+    display: flex;
+    align-items: flex-end;
+    right: 10px;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    color:black;
+}
