@@ -4,14 +4,14 @@
 }
 
 body{
-    background-color: rgba(0, 128, 0, 0.3);
+    background-color: rgba(255, 217, 0, 0.3);
 }
 
 
 /*Título*/
 
 h1{
-    background-color: green;
+    background-color: gold;
     color: white;
     padding: 2%;
 }
@@ -33,22 +33,13 @@ img{
 /*Rodapé*/
 
 footer{
-    background-color: green;
+    background-color: gold;
     color: white;
     font-size: small;
     padding: 1%;
-    position: absolute;
-    bottom:0;
-    width:98%;
-}
-
-footer a{
-    color:white;
-    text-decoration: none;
-}
-
-footer a:hover{
-    color:black;
+    display: flex;
+    align-items: flex-end;
+    right: 10px;
 }
 
 footer a{

@@ -3,17 +3,9 @@
     font-family: "Century Gothic";
 }
 
-html{
-    height: 100%;
-    width: 100%;
-}
-
 body{
-    height: 100%;
-    width: 100%;
     background-color: rgb(54, 190, 235, 0.3);
 }
-
 
 /*Título*/
 
@@ -24,15 +16,12 @@ h1{
 }
 
 
-/*Conteúdo*/
-
-.container{
-    position:relative;
-}
+/*Texto*/
 
 p{
     padding:4%;
 }
+
 
 /*Lista de páginas*/
 
@@ -57,9 +46,9 @@ footer{
     color: white;
     font-size: small;
     padding: 1%;
-    position: absolute;
-    bottom:0;
-    width:98%;
+    display: flex;
+    align-items: flex-end;
+    right: 10px;
 }
 
 footer a{
@@ -70,13 +59,3 @@ footer a{
 footer a:hover{
     color:black;
 }
-
-footer a{
-    color:white;
-    text-decoration: none;
-}
-
-footer a:hover{
-    color:black;
-}
-
