@@ -8,7 +8,7 @@ O repositório é composto do curso JavaScript do canal **Curso em Vídeo**, do 
 
 - [x] **Módulo A - Conhecendo o JavaScript:** Primeiros passos e primeiro *script*.
 - [x] **Módulo B - Comandos básicos do JavaScript:** Variáveis e tipos primitivos, tratamento de dados, operadores;
-- [ ] **Módulo C - Entendendo o DOM:** Introdução ao DOM, eventos DOM;
+- [x] **Módulo C - Entendendo o DOM:** Introdução ao DOM, eventos DOM;
 - [ ] **Módulo D - Condições em JavaScript:** Condicionais;
 - [ ] **Módulo E - Repetições em JavaScript:** *Arrays*.
 - [ ] **Módulo F - Avançando os estudos em JavaScript:** Variáveis compostas, funções, próximos passos.
