@@ -6,11 +6,11 @@ O repositório é composto do curso HTML5 e CSS3 do canal **Curso em Vídeo**, d
 
 
 
-- [x] **Módulo 01 [M01]:** Conceitos básicos, preparação do ambiente, semântica da HTML5, textos, títulos, ligações, multimídia e estilos;
-- [ ] **Módulo 02 [M02]:** Fundamentos do design, psicologia das cores, tipografia, elementos CSS, modelo de caixas, *wireframe*, responsividade;
-- [ ] **Módulo 03 [M03]:** Versionamento de software, hospedagem de sites estáticos, tabelas;
-- [ ] **Módulo 04 [M04]:** Quadros em linha, formulários, *media queries*, *mobile first*;
-- [ ] **Módulo 05 [M05]:** *Flexbox*, *Grid Layout*, projeto final.
+- [x] **Módulo 01 [M01] - Primeiros Passos HTML + CSS:** Conceitos básicos, preparação do ambiente, semântica da HTML5, textos, títulos, ligações, multimídia e estilos;
+- [ ] **Módulo 02 [M02] - Deixando as Coisas Mais Bonitas:** Fundamentos do design, psicologia das cores, tipografia, elementos CSS, modelo de caixas, *wireframe*, responsividade;
+- [ ] **Módulo 03 [M03] - Colocando um Protótipo no Ar:** Versionamento de software, hospedagem de sites estáticos, tabelas;
+- [ ] **Módulo 04 [M04] - Aprofundando os Conhecimentos:** Quadros em linha, formulários, *media queries*, *mobile first*;
+- [ ] **Módulo 05 [M05] - Novas Tecnologias:** *Flexbox*, *Grid Layout*, projeto final.
 
 
 
