@@ -1,6 +1,6 @@
 # Curso em Vídeo
 
-<img src="C:\workspace\curso-em-video\HTML-CSS-2020\html-css\Desafios\desafio d002\img\github-g.png" width="250" align="right"/><p>O repositório é composto de cursos realizados do canal **Curso em Vídeo**, do professor Gustavo Guanabara. Desafios e exercícios foram realizados durante os cursos entre dezembro de 2020 e fevereiro de 2021. <br>Segue a lista dos cursos concluídos pela plataforma, e que serão enviados para este repositório: </p>
+<img src=".\HTML-CSS-2020\html-css\Desafios\desafio d002\img\github-g.png" width="250" align="right"/><p>O repositório é composto de cursos realizados do canal **Curso em Vídeo**, do professor Gustavo Guanabara. Desafios e exercícios foram realizados durante os cursos entre dezembro de 2020 e fevereiro de 2021. <br>Segue a lista dos cursos concluídos pela plataforma, e que serão enviados para este repositório: </p>
 
 <ul>
     <li>Algoritmos</li>
