@@ -2,7 +2,7 @@
 
 O repositório é composto do curso HTML5 e CSS3 do canal **Curso em Vídeo**, do professor Gustavo Guanabara. Desafios e exercícios foram realizados durante em fevereiro de 2021 [M01] e abril de 2021 [M02].
 
-<img src="C:\workspace\curso-em-video\HTML-CSS-2020\mascote-html5.png" width="250" align="right"/>Este curso será dividido em 5 módulos:
+<img src="mascote-html5.png" alt="mascote Guanabara HTML5" width="250" align="right"/>Este curso será dividido em 5 módulos:
 
 
 
