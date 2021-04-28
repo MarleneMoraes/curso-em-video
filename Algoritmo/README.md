@@ -4,7 +4,7 @@ O repositório é composto dos exercícios propostos do curso de Algoritmos [40 
 
 O professor desenvolveu uma lista de 100 exercícios divididas em tópicos vistos nas 15 aulas:
 
-- [ ] **Passo 01 - Sequências Básicas:** Comando de Entrada e Operadores, Operadores Lógicos e Relacionais;
+- [x] **Passo 01 - Sequências Básicas:** Comando de Entrada e Operadores, Operadores Lógicos e Relacionais;
 
 - [ ] **Passo 02 - Condições Básicas** 
 
