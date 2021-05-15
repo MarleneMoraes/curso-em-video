@@ -1,0 +1,33 @@
+/*Formatação do menu*/
+
+nav#menu{
+    display: block;
+
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:-8px;
+    left: 50%;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+nav#menu ul :hover {
+    background-color: #606060;
+    transition: 1s;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #000000;
+}
