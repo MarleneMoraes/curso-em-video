@@ -1,9 +1,14 @@
 function carregar() {
-    var msg = document.getElementById('mensagem')
-    var img = document.getElementById('imagem')
+    var msg = document.querySelector('p.mensagem')
+    var img = document.querySelector('img.imagem')
     var data = new Date ()
     var hora = data.getHours()
     var minutos = data.getMinutes()
+    
+    if (minutos < 10){
+        minutos="0"+minutos
+    }
+    
     msg.innerHTML = `Agora são ${hora}:${minutos}h.`
 
     if (hora >= 0 && hora < 12){

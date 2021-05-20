@@ -1,12 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background: rgb(70,142,236);
-    font: normal 15pt Arial;
+    font: normal 15pt 'Century Gothic';
 }
 
 header{
-    color:#ffffff;
-    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+}
 
+header img {
+    max-width: 200px;
+}
+
+.curso{
+    width: 100px;
+    background-color: #2727FF;
+    border-style: none;
+    padding: 7px;
+    border-radius: 10px;
+    float: right;
+    font: normal 11pt 'Century Gothic';
+}
+
+.curso a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.curso:hover{
+    background-color: #000080;
+}
+
+.curso:active{
+    background-color: #2727FF;
 }
 
 section {
@@ -14,18 +45,20 @@ section {
     border-radius: 10px;
     padding: 15px;
     width: 350px;
-    margin: auto;
+    margin: 20px auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
 }
 
-#mensagem, 
-#imagem {
-    text-align: center;
+.mensagem, 
+.imagem {
+
     padding: 5px;
 }
 
 
 footer{
-    color: #ffffff;
+    color: #1C0051;
+    text-shadow: 2px 1px 1px #ffffff;
     text-align: center;
 }
