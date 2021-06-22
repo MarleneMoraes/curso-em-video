@@ -1,36 +1,66 @@
-<header id="cabecalho">
-    <hgroup>
-        <h1>Google Glass</h1>
-        <h2>A revolução do Google está chegando</h2>
-    </hgroup>
-        
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <img src="./imagens/glass-oculos-preto-peq.png" alt="Google Glass">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
 
-    <nav id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="specs.html">Especificações</a></li>
-            <li><a href="fotos.html">Fotos</a></li>
-            <li><a href="multimidia.html">Multimídia</a></li>
-            <li><a href="fale-conosco.html">Fale conosco</a></li>
-        </ul>
-    </nav>
+<body>
+    <main>
+        <header id="headerMain">
+            <hgroup class="titulo">
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-</header>
+            <img id="photoLogo" src="./imagens/glass-logo-peq.jpg" alt="Logo Google Glass">
+            <img id="photoMenu" src="./imagens/especificacoes.png" alt="Google Glass">
 
-<hgroup>
-    <h3>Glass > Especificações</h3>
-    <h1>Raio-X no Google Glass</h1>
-    <h2>por Gustavo Guanabara</h2>
-    <h3>Atualizado em 01/Maio/2013</h3>
-</hgroup>
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudaFoto('./imagens/home.png')"
+                        onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('./imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('./imagens/especificacoes.png')"><a
+                            href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('./imagens/fotos.png')"
+                        onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="fotos.html">Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('./imagens/multimidia.png')"
+                        onmouseout="mudaFoto('./imagens/especificacoes.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('./imagens/contato.png')"
+                        onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="fale-conosco.html">Fale
+                            conosco</a></li>
+                </ul>
+            </nav>
 
-<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+        </header>
 
-<img src="" alt="">
+        <hgroup>
+            <h3>Glass > Especificações</h3>
+            <h1>Raio-X no Google Glass</h1>
+            <h2>por Gustavo Guanabara</h2>
+            <h3>Atualizado em 01/Maio/2013</h3>
+        </hgroup>
 
-<footer>
-    Copyright 2013 - by Gustavo Guanabara
-    Facebook | Twitter
-</footer>
+        <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+            Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+        <img src="" alt="">
+
+        <footer>
+            <hr>
+            <p><em>&copy; Copyright 2013 by Gustavo Guanabara</em></p>
+        </footer>
+    </main>
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/83bbcb24d1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

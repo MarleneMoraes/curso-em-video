@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'Fonte Logo';
+    src: url('../fonts/bubblegum-sans-regular.otf');
+}
+
 * {
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 body {
     background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
 }
 
-div#interface {
+h1, 
+h2, 
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #888888;
+}
+
+main {
     width: 80%;
     background-color: #ffffff;
     margin: 0 auto;
@@ -15,9 +45,137 @@ div#interface {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
-p {
-    text-align: justify;
-    text-indent: 50px;
+
+
+/* Cabeçalho */
+#headerMain {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    padding: 15px;
+}
+
+header h1, 
+aside h1 {
+    font-family: 'Fonte Logo', Helvetica, sans-serif;
+    font-size: 30pt;
+    color:#606060;
+}
+
+#headerMain h1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+}
+
+#headerMain h2 {
+    font-size: 15pt;
+    color:#888888;
+}
+
+#photoLogo {
+    display: block;
+}
+
+#photoMenu{
+    position: absolute;
+    top:40px;
+    left: 1100px;
+}
+
+/*Formatação do menu*/
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:-8px;
+    left: 750px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+nav#menu ul :hover {
+    background-color: #606060;
+    color: #ffffff;
+    transition: 1s;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Conteúdo principal */
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+section {
+    width: 65%;
+
+}
+
+/* Configurações do Article - corpo do site */
+
+section h2, 
+aside h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.headerArticle h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.headerArticle h3 { 
+    font-size: 12px;
+}
+
+#date { 
+    text-align: right;
+}
+
+aside {
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    background-color: #dddddd;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.socialMedia {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+}
+
+.fab {
+    color:#888888;
+    padding: 5px;
+    
+}
+
+.fab:hover {
+    color:#606060;
 }
 
 /*Formatação de imagens com legendas*/
@@ -49,36 +207,33 @@ figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
-/*Formatação do menu*/
-
-nav#menu{
-    display: block;
-
+/* Formatação da tabela*/
+.tableTech {
+    border-spacing: 1px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top:-8px;
-    left: 50%;
-
+.tableTitle, 
+.type {
+    padding:5px;
+    color: white;
+    font-weight: bold;
 }
 
-nav#menu li{
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 10px;
-    margin: 2px;
-
-}
-
-nav#menu ul :hover {
+.tableTitle {
     background-color: #606060;
-    transition: 1s;
 }
 
-nav#menu a{
-    text-decoration: none;
-    color: #000000;
+.type {
+    background-color: #888888;
+}
+
+.description {
+    padding: 5px;
+    background-color: #dddddd;
+}
+
+/* Rodape */
+footer p {
+    text-align: center;
 }
