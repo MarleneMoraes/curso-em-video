@@ -1,33 +1,38 @@
-/*Formatação do menu*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
 
-nav#menu{
+/* Formulário */
+
+section {
+    width: 100%;
+    padding: 15px;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+legend {
+    color: #888888;
+    font: bold 13pt 'Titillium Web', sans-serif;
+}
+
+label {
     display: block;
-
+    padding: 8px;
+    font: normal 13pt 'Roboto', sans-serif;
 }
 
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top:-8px;
-    left: 50%;
-
+input, textarea {
+    font: normal 13pt 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, .8);
 }
 
-nav#menu li{
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 10px;
-    margin: 2px;
-
-}
-
-nav#menu ul :hover {
-    background-color: #606060;
-    transition: 1s;
-}
-
-nav#menu a{
-    text-decoration: none;
-    color: #000000;
-}

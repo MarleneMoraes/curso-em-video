@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="shortcut icon" href="./imagens/glass-oculos-preto-peq.png" type="image/x-icon">
+    <title>Fale Conosco</title>
 </head>
 
 <body>
@@ -16,74 +18,135 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            
+
             <img id="photoLogo" src="./imagens/glass-logo-peq.jpg" alt="Logo Google Glass">
             <img id="photoMenu" src="./imagens/contato.png" alt="Google Glass">
 
             <nav id="menu">
                 <ul>
-                    <li onmouseover="mudaFoto('./imagens/home.png')"
-                        onmouseout="mudaFoto('./imagens/contato.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('./imagens/home.png')" onmouseout="mudaFoto('./imagens/contato.png')"><a
+                            href="index.html">Home</a></li>
                     <li onmouseover="mudaFoto('./imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('./imagens/contato.png')"><a
-                            href="specs.html">Especificações</a></li>
-                    <li onmouseover="mudaFoto('./imagens/fotos.png')"
-                        onmouseout="mudaFoto('./imagens/contato.png')"><a href="fotos.html">Fotos</a>
+                        onmouseout="mudaFoto('./imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('./imagens/fotos.png')" onmouseout="mudaFoto('./imagens/contato.png')"><a
+                            href="fotos.html">Fotos</a>
                     </li>
                     <li onmouseover="mudaFoto('./imagens/multimidia.png')"
-                        onmouseout="mudaFoto('./imagens/contato.png')"><a
-                            href="multimidia.html">Multimídia</a></li>
-                    <li onmouseover="mudaFoto('./imagens/contato.png')"
-                        onmouseout="mudaFoto('./imagens/contato.png')"><a href="fale-conosco.html">Fale
-                            conosco</a></li>
+                        onmouseout="mudaFoto('./imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('./imagens/contato.png')" onmouseout="mudaFoto('./imagens/contato.png')">
+                        <a href="fale-conosco.html">Fale
+                            conosco</a>
+                    </li>
                 </ul>
             </nav>
 
         </header>
 
-<hgroup>
-    <h3>Fale Conosco > Contato</h3>
-    <h1>Formulário de Contato</h1>
-    <h2>por Gustavo Guanabara</h2>
-    <h3>Atualizado em 01/Maio/2013</h3>
-</hgroup>
+        <section class="sectionPage">
+            <header class="headerArticle">
+                <hgroup>
+                    <h3>Fale Conosco > Contato</h3>
+                    <h1>Formulário de Contato</h1>
+                    <h2>por Gustavo Guanabara</h2>
+                    <h3 class="date">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+            </header>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+            <form method="POST" id="form" action="mailto:contato@cursoemvideo.com" oninput="calculoTotal()">
+                <fieldset>
+                    <legend>Identificação do Usuário</legend>
+                    <label for="name">Nome: <input type="text" name="name" id="name" placeholder="Nome Completo"></label>
+                    <label for="password">Senha: <input type="password" name="password" id="password" placeholder="Senha"></label>
+                    <label for="email">E-mail: <input type="email" name="email" id="email" placeholder="E-mail"></label>
+                    <label for="sex">Sexo: <input type="radio" name="" id="sex"> Masculino <input type="radio" name="" id="sex"> Feminino </label>
+                    <label for="birthdate">Data de Nascimento: <input type="date" name="birthdate" id="birthdate"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço do Usuário</legend>
+                    <label for="adress">Logradouro: <input type="text" name="adress" id="logradouro" placeholder="Av. das Américas"></label>
+                    <label for="number">Número: <input type="number" name="number" id="number"></label>
+                    <label for="state">Estado: 
+                        <select name="state" id="state">
+                            <option selected>Estado</option>
+                            <optgroup label="Região Norte">
+                                <option value="AC">Acre</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Região Nordeste">
+                                <option value="AL">Alagoas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Região Centro-Oeste">
+                                <option value="DF">Brasília</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                            </optgroup>
+                            <optgroup label="Região Sudeste">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label for="city">Cidade: <input type="text" name="city" id="city" placeholder="Cidade" list="cidades">
+                        <datalist id="cidades">
+                            <option value="Rio de Janeiro"></option>
+                            <option value="Belo Horizonte"></option>
+                            <option value="Blumenau"></option>
+                            <option value="São Paulo"></option>
+                            <option value="Santa Catarina"></option>
+                            <option value="Manaus"></option>
+                            <option value="Belém"></option>
+                            <option value="Salvador"></option>
+                            <option value="Ouro Preto"></option>
+                            <option value="Rio Branco"></option>
+                        </datalist>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem do Usuário</legend>
+                    <label for="urgency">Grau de Urgência: Min <input type="range" name="urgency" id="urgency" min="0" max="10" step="1"> Max</label>
+                    <label for="mensage">Mensagem: <textarea name="mensage" id="mensage" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Quero um Google Glass</legend>
+                    <label for="available"><input type="checkbox" name="available" id="available"> Gostaria de adquirir um Google Glass quando disponível</label>
+                    <label for="color">Cor: <input type="color" name="color" id="color" va></label>
+                    <label for="quantity">Quantidade: <input type="number" name="quantity" id="quantity"></label>
+                    <label for="price">Preço Total: R$ <input type="text" name="price" id="price" placeholder="Total a Pagar" readonly></label>
+                </fieldset>
+                
+                <input id="send" type="image" src="./imagens/botao-enviar.png">
+            </form>
+        </section>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+        <footer>
+            <hr>
+            <p><em>&copy; Copyright 2013 by Gustavo Guanabara</em></p>
+        </footer>
+    </main>
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
-
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
-
-
-[BOTÃO ENVIAR]
-
-<footer>
-    <hr>
-    <p><em>&copy; Copyright 2013 by Gustavo Guanabara</em></p>
-</footer>
-</main>
-
-<script src="./javascript/script.js"></script>
-<script src="https://kit.fontawesome.com/83bbcb24d1.js" crossorigin="anonymous"></script>
+    <script src="./javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/83bbcb24d1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

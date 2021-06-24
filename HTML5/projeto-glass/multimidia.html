@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./imagens/glass-oculos-preto-peq.png" type="image/x-icon">
+    <title>Multimídia</title>
 </head>
 
 <body>
@@ -22,17 +24,16 @@
 
             <nav id="menu">
                 <ul>
-                    <li onmouseover="mudaFoto('./imagens/home.png')"
-                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('./imagens/home.png')" onmouseout="mudaFoto('./imagens/multimidia.png')">
+                        <a href="index.html">Home</a>
+                    </li>
                     <li onmouseover="mudaFoto('./imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a
-                            href="specs.html">Especificações</a></li>
-                    <li onmouseover="mudaFoto('./imagens/fotos.png')"
-                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a href="fotos.html">Fotos</a>
+                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('./imagens/fotos.png')" onmouseout="mudaFoto('./imagens/multimidia.png')">
+                        <a href="fotos.html">Fotos</a>
                     </li>
                     <li onmouseover="mudaFoto('./imagens/multimidia.png')"
-                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a
-                            href="multimidia.html">Multimídia</a></li>
+                        onmouseout="mudaFoto('./imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
                     <li onmouseover="mudaFoto('./imagens/contato.png')"
                         onmouseout="mudaFoto('./imagens/multimidia.png')"><a href="fale-conosco.html">Fale
                             conosco</a></li>
@@ -42,18 +43,34 @@
         </header>
 
 
-        <hgroup>
-            <h3>Glass > Multimídia</h3>
-            <h1>Sons e Vídeos</h1>
-            <h2>por Gustavo Guanabara</h2>
-            <h3>Atualizado em 01/Maio/2013</h3>
-        </hgroup>
+        <section id="sectionMedia">
+            <article>
+                <header class="headerArticle">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="date">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
 
-
-        <p>Áudio e Vídeo</p>
-
-        [AQUI ENTRA UM VÍDEO]
-        [AQUI ENTRA UM ÁUDIO]
+                <h2>Áudio e Vídeo</h2>
+                <div class="tv-radio">
+                    <video id="filme" controls="controls" poster="./imagens/video-mini03.jpg">
+                        <source src="./media/getting-started.mp4" type="video/mp4">
+                        <source src="./media/getting-started.webm" type="video/webm">
+                        <source src="./media/getting-started.ogv" type="video/ogg">
+                        Desculpe, não foi possível carregar o vídeo :/
+                    </video>
+                    <audio id="musica" controls="controls">
+                        <source src="./media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+                        <source src="./media/2009-lovers-carvings-bibio.m4a" type="audio/x-aac">
+                        <source src="./media/2009-lovers-carvings-bibio.ogg" type="audio/ogg">
+                        Desculpe, não foi possível carregar a música :/
+                    </audio>
+                </div>
+            </article>
+        </section>
 
         <footer>
             <hr>
