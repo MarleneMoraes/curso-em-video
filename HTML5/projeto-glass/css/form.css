@@ -14,14 +14,14 @@ form {
 }
 
 fieldset {
-    border-color: #cecece;
+    border-color: var(--other);
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 legend {
-    color: #888888;
+    color: var(--effect);
     font: bold 13pt 'Titillium Web', sans-serif;
 }
 

@@ -1,252 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap");
 @font-face {
-    font-family: 'Fonte Logo';
-    src: url('../fonts/bubblegum-sans-regular.otf');
+  font-family: "Fonte Logo";
+  src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+:root {
+  --accent: #606060;
+  --effect: #888888;
+  --active: #dddddd;
+  --other: #cecece;
 }
 
 * {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: #dddddd;
-    color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100vh;
+  background-color: var(--active);
+  color: rgba(0, 0, 0, 1);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    text-indent: 20px;
-    margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-indent: 20px;
+  margin: 20px 0;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
-    color: #888888;
+  color: var(--effect);
 }
 
-.sectionPage {
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-/* Página Principal */
+/* Conteúdo Principal */
 main {
-    width: 80%;
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  width: 80%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 /* Cabeçalho */
 #headerMain {
-    border-bottom: 1px #606060 solid;
-    height: 150px;
-    padding: 15px;
+  border-bottom: 1px var(--accent) solid;
+  height: 150px;
+  padding: 15px;
 }
 
-header h1, 
+header h1,
 aside h1 {
-    font-family: 'Fonte Logo', Helvetica, sans-serif;
-    font-size: 30pt;
-    color:#606060;
+  font-family: "Fonte Logo", Helvetica, sans-serif;
+  font-size: 30pt;
+  color: var(--accent);
 }
 
 #headerMain h1 {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 #headerMain h2 {
-    font-size: 15pt;
-    color:#888888;
+  font-size: 15pt;
+  color: var(--effect);
 }
 
 #photoLogo {
+  display: block;
+}
+
+#photoMenu {
+  position: absolute;
+  top: 40px;
+  left: 1100px;
+}
+
+/* Menu */
+#menuDesktop {
+  display: none;
+}
+
+.menuMobile {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.menulateral {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  right: -300px;
+  background-color: var(--other);
+  transition: all 0.5 ease;
+}
+
+.menulateral li {
+  list-style: none;
+}
+
+.menulateral a {
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: #000000;
+  line-height: 65px;
+  padding-right: 30px;
+}
+
+.menulateral a span {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#check {
+  display: none;
+}
+
+label #btn-menu,
+label #out {
+  position: absolute;
+  top: 2%;
+  right: 15%;
+  border-radius: 50%;
+  background-color: var(--other);
+  cursor: pointer;
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+label #out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#check:checked ~ .sidebar {
+  right: 0;
+}
+
+#check:checked ~ label #btn-menu {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#check:checked ~ label #out {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Formatação do menu desktop*/
+
+@media (min-width: 1200px) {
+  .menuMobile {
+    display: none;
+  }
+
+  nav#menuDesktop {
     display: block;
-}
+  }
 
-#photoMenu{
-    position: absolute;
-    top:40px;
-    left: 1100px;
-}
-
-/*Formatação do menu*/
-
-nav#menu{
-    display: block;
-}
-
-nav#menu ul{
+  nav#menuDesktop ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top:-8px;
-    left: 750px;
-}
+    top: -8px;
+    left: 60%;
+  }
 
-nav#menu li{
+  nav#menuDesktop li {
     display: inline-block;
-    background-color: #dddddd;
+    background-color: var(--active);
     padding: 10px;
     margin: 2px;
+  }
 
-}
-
-nav#menu ul :hover {
-    background-color: #606060;
+  nav#menuDesktop ul :hover {
+    background-color: var(--accent);
     color: #ffffff;
     transition: 1s;
-}
+  }
 
-nav#menu a{
+  nav#menuDesktop a {
     text-decoration: none;
     color: #000000;
-}
-
-/* Conteúdo principal */
-
-.flex {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-
-section {
-    width: 65%;
-
-}
-
-/* Configurações do Article - corpo do site */
-
-section h2, 
-aside h2{
-    font-size: 12pt;
-    color: #606060;
-    background-color: #dddddd;
-    margin: 10px 0px;
-    padding: 5px;
-}
-
-.headerArticle h2{
-    font-size: 13pt;
-    color: #cecece;
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-}
-
-.headerArticle h3 { 
-    font-size: 12px;
-}
-
-.date { 
-    text-align: right;
-}
-
-/*Formatação de imagens com legendas*/
-
-.foto-legenda {
-    border: 8px solid white;
-    box-shadow: 1px 1px 4px black;
-    position: relative;
-}
-
-figure.foto-legenda img {
-    width: 100%;
-    height: 100%;
-}
-
-figure.foto-legenda figcaption {
-    opacity: 0;
-    position: absolute;
-    top:0px;
-    background-color: rgba(0, 0, 0, .4);
-    color: white;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-figure.foto-legenda:hover figcaption {
-    transition: 1s;
-    opacity: 1;
-}
-
-/* Conteúdo Lateral do Site */
-
-aside {
-    width: 30%;
-    height: 80%;
-    padding: 10px;
-    background-color: #dddddd;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-}
-
-.socialMedia {
-    width: 100%;
-    display: block;
-    margin: 5px 0;
-}
-
-.fab {
-    color:#888888;
-    padding: 5px;
-    
-}
-
-.fab:hover {
-    color:#606060;
-}
-
-.video {
-    width: 100%;
-}
-
-/* Formatação da tabela*/
-.tableTech {
-    border-spacing: 1px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.tableTitle, 
-.type {
-    padding:5px;
-    color: white;
-    font-weight: bold;
-}
-
-.tableTitle {
-    background-color: #606060;
-}
-
-.type {
-    background-color: #888888;
-}
-
-.description {
-    padding: 5px;
-    background-color: #dddddd;
+  }
 }
 
 /* Rodape */
 footer p {
-    text-align: center;
+  text-align: center;
 }

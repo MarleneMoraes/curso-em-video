@@ -22,7 +22,7 @@
             <img id="photoLogo" src="./imagens/glass-logo-peq.jpg" alt="Logo Google Glass">
             <img id="photoMenu" src="./imagens/especificacoes.png" alt="Google Glass">
 
-            <nav id="menu">
+            <nav id="menuDesktop">
                 <ul>
                     <li onmouseover="mudaFoto('./imagens/home.png')"
                         onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html">Home</a></li>
@@ -57,12 +57,21 @@
                 <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
                     Glass.
                     Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
-                    <img id="specsImg" src="./imagens/glass-esquema-marcado.jpg" alt="Glass com pontos marcados" usemap="#imagesmap">
-                    <!--<map name="imagesmap">
+                
+                <!--quebra de colunas para responsividade-->
+                <div class="flex">
+                    <div class="specsImg">
+                        <img id="specsImg" src="./imagens/glass-esquema-marcado.jpg" alt="Glass com pontos marcados"
+                            usemap="#imagesmap">
+                        <!--<map name="imagesmap">
                         <area shape="rect" coords="" href="" alt="">
                         <area shape="circle" coords="146,233" href="google-glass.html#camera" alt="Camera">
                     </map>-->
-                    <iframe id="iframe" src="google-glass.html" scrolling="no"></iframe>
+                    </div>
+                    <div class="iframe">
+                        <iframe id="iframe" src="google-glass.html" scrolling="no"></iframe>
+                    </div>
+                </div>
             </article>
         </section>
 

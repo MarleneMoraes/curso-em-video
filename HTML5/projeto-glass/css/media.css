@@ -1,29 +1,30 @@
 #sectionMedia {
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     padding: 15px;
 }
 
-.tv-radio {
-    width: 900px;
-    height: 580px;
-    margin: auto;
-    background: url('../imagens/radio-tv.png') no-repeat;
+.tv-radio img {
+    width: 100%;
+    margin: 10px auto;
 }
 
-#musica{
-    display: block;
-    position: absolute;
-    width: 300px;
-    left: 880px;
-    bottom: -165px;
-}
-
-#filme {
-    display: block;
-    position: absolute;
-    width: 470px;
-    left:380px;
-    bottom: 0px;
-
+@media (min-width: 1000px){
+    #musica{
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 880px;
+        bottom: -165px;
+    }
+    
+    #filme {
+        display: block;
+        position: absolute;
+        width: 470px;
+        left:380px;
+        bottom: 0px;
+    
+    }
 }
