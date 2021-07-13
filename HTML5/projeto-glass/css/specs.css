@@ -1,44 +1,23 @@
 #sectionSpecs {
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  margin: auto;
   padding: 15px;
 }
 
 #bodyGlass {
   background-color: #ffffff;
-  height: 50%;
-  width: 40%;
+  width: 100%;
   padding: 10px;
 }
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.specsImg {
-  width: 50%;
-}
-
-#specsImg {
-  width: 100%;
-}
-
-.iframe {
-  width: 50%;
-}
 #iframe {
-  width: 100%;
-  height: 40%;
-  position: absolute;
+  width: 50%;
   border: none;
   overflow: hidden;
 }
 
 .articleGlass {
-  margin-bottom: 800px;
+  margin-bottom: 300px;
 }
 
 .titleGlass {
@@ -46,6 +25,7 @@
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5px;
+  width: 100%;
 }
 
 .subtitleGlass {
