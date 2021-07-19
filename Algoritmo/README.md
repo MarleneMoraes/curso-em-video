@@ -6,7 +6,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 01 - Sequências Básicas:** Comando de Entrada e Operadores, Operadores Lógicos e Relacionais;
 
-- [ ] **Passo 02 - Condições Básicas** 
+- [x] **Passo 02 - Condições Básicas:** Operador Se Senão; 
 
 - [ ] **Passo 03 - Condições Compostas** 
 
