@@ -10,5 +10,5 @@ O repositório é composto do curso HTML5 do canal **Curso em Vídeo**, do profe
 
 
 
-> Status do projeto: Em processo de conclusão 🏃🏿‍♀️
+> Status do projeto: Concluído :heavy_check_mark:
 
