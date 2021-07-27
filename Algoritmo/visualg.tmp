@@ -9,10 +9,10 @@ var
 
 inicio
       EscrevaL ("Programa Vida do Fumante")
-      EscrevaL ("Quantos cigarros são fumados ao dia? ")
+      Escreva ("Quantos cigarros são fumados ao dia? ")
       Leia (cigarro)
       
-      EscrevaL ("Quantos anos você é fumante? ")
+      Escreva ("Quantos anos você é fumante? ")
       Leia (anos)
       
       //1 ano = 365 dias
@@ -35,6 +35,6 @@ inicio
       
       tempoPerdido <- anoEmDia - tempoCigarro
       
-      EscrevaL
+      EscrevaL ("Você perderá", tempoPerdido, " dias")
 
 fimalgoritmo
