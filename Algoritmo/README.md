@@ -8,7 +8,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 02 - Condições Básicas:** Operador Se Senão; 
 
-- [ ] **Passo 03 - Condições Compostas** 
+- [x] **Passo 03 - Condições Compostas** 
 
 - [ ] **Passo 04 - Repetições Enquanto** 
 
