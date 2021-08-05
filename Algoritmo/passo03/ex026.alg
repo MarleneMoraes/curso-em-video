@@ -14,12 +14,15 @@ Leia (num2)
 
 Se num1 > num2 entao
    Escreval ("O primeiro valor é o maior.")
-   Se num1 = num2 entao
-   Escreval ("Não existe valor maior, os dois são iguais.")
-   FimSe
 senao
-   Escreval ("O segundo valor é o maior.")
+   Se num1 = num2 entao
+      Escreval ("Não existe valor maior, os dois são iguais.")
+   senao
+      Escreval ("O segundo valor é o maior.")
+   FimSe
 FimSe
+
+
 
 
 
