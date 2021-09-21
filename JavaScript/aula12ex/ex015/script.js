@@ -2,15 +2,14 @@ function verificar(){
     var data = new Date()
     var ano = data.getFullYear()
     var formano = document.querySelector ('div#result')
+    var formgenero = getElementsByName('genero')
+    var idade = ano - Number (formano.value)
+    var genero = ''
+    var img = document.createElement('img')
 
     if (formano.value.length == 0 || Number (formano.value) > ano) {
         alert ('[ERRO] Verifique os dados e tente novamente!')
     } else {
-        var formgenero = getElementsByName('genero')
-        var idade = ano - Number (formano.value)
-        var genero = ''
-        var img = document.createElement('img')
-
         img.setAttribute('id', 'foto')
         if (formgenero[0].checked){
             genero = 'Homem'
