@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário | Overmind</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        
+        <!-- Formulário de Envio -->
+        <main>
+            <div class="formulary" id="realizarCadastro">
+                <h1>Formulário Overmind</h1>
+
+                <div id='error'></div>
+                <div id='sucess'></div>
+
+                <form action="submit.jsp" method="post">
+                    <label id="labelName" class="label" for="name">
+                        <input id="name" class="form name" type="text" placeholder="Nome Completo" autocomplete="off" required>
+                    </label>
+                    <label id="labelTelephone" class="label" for="telephone">
+                        <input id="telephone" class="form telephone" type="text" placeholder="Telefone" autocomplete="off" required> 
+                    </label>
+                    <label id="labelEmail" class="label" for="email">
+                        <input id="email" class="form email" type="text" placeholder="Email" autocomplete="off" required> 
+                    </label>
+
+                    <label id="labelPassword" class="label" for="password">
+                        <input id="password" class="form password" type="password" placeholder="Senha" autocomplete="off" required>
+                        <i id="watchPassword" class="fa fa-eye-slash"></i>
+                    </label>
+                    <label id="labelConfirmPassword" class="label" for="confirmPassword">
+                        <input id="confirmPassword" class="form confirmar-senha" type="password" placeholder="Confirme sua Senha" autocomplete="off" required> 
+                        <i id="watchConfirmPassword" class="fa fa-eye-slash"></i>
+                    </label>
+
+                    <button id="submit" class="btn-submit"><a href="">Enviar</a></button>
+
+                </form>
+            </div>
+        </main>
+
+
+        <!-- Rodapé -->
+        <footer class="footer">
+            <p> Teste Overmind 2021 | <strong>Marlene Moraes</strong></p>
+        </footer>
+
+        <script src="./js/script.js"></script>
+        <script src="https://kit.fontawesome.com/83bbcb24d1.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
