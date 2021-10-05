@@ -4,9 +4,9 @@ O repositório é composto dos exercícios propostos do curso de Algoritmos [40 
 
 O professor desenvolveu uma lista de 100 exercícios divididas em tópicos vistos nas 15 aulas:
 
-- [x] **Passo 01 - Sequências Básicas:** Comando de Entrada e Operadores, Operadores Lógicos e Relacionais;
+- [x] <img src="algoritmos.jpg" alt="java curso em video" width="30%" align="right"/>**Passo 01 - Sequências Básicas** 
 
-- [x] **Passo 02 - Condições Básicas:** Operador Se Senão; 
+- [x] **Passo 02 - Condições Básicas**
 
 - [x] **Passo 03 - Condições Compostas** 
 
