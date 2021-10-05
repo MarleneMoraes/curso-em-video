@@ -2,7 +2,7 @@
 
 O repositório é composto do curso JavaScript do canal **Curso em Vídeo**, do professor Gustavo Guanabara com patrocínio do Google. Os desafios e exercícios foram realizados em abril de 2021.
 
-<img src="mascote-javascript.png" alt="mascote Guanabara JS" width="250" align="right"/>Este curso será dividido em 6 módulos:
+<img src="javascript.jpg" alt="Javascript" width="30%" align="right"/>Este curso será dividido em 6 módulos:
 
 
 
