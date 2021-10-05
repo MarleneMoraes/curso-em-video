@@ -10,9 +10,9 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 03 - Condições Compostas** 
 
-- [ ] **Passo 04 - Repetições Enquanto** 
+- [x] **Passo 04 - Repetições Enquanto** 
 
-- [ ] **Passo 05 - Enquanto com *Flag*** 
+- [x] **Passo 05 - Enquanto com *Flag*** 
 
 - [ ] **Passo 06 - Repetição com Faça Enquanto** 
 
