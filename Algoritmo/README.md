@@ -14,7 +14,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 05 - Enquanto com *Flag*** 
 
-- [ ] **Passo 06 - Repetição com Faça Enquanto** 
+- [x] **Passo 06 - Repetição com Faça Enquanto** 
 
 - [ ] **Passo 07 - Repetição com Para**
 
