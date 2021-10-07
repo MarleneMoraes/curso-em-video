@@ -16,7 +16,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 06 - Repetição com Faça Enquanto** 
 
-- [ ] **Passo 07 - Repetição com Para**
+- [x] **Passo 07 - Repetição com Para**
 
 - [ ] **Passo 08 - Vetores**
 
