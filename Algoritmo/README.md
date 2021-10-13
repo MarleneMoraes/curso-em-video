@@ -20,7 +20,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 08 - Vetores**
 
-- [ ] **Passo 09 - Procedimentos**
+- [x] **Passo 09 - Procedimentos**
 
 - [ ] **Passo 10 - Funções**
 
