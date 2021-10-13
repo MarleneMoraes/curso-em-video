@@ -22,7 +22,7 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 - [x] **Passo 09 - Procedimentos**
 
-- [ ] **Passo 10 - Funções**
+- [x] **Passo 10 - Funções**
 
   
 
@@ -30,4 +30,4 @@ O professor desenvolveu uma lista de 100 exercícios divididas em tópicos visto
 
 
 
-> Status do projeto: Em Andamento :pencil:
+> Status do curso: Concluído :heavy_check_mark:
