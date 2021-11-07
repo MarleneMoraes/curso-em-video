@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(90deg, rgba(187,245,255,1) 0%, rgba(9,156,244,1) 100%);
+    font: normal 15pt Arial;
+}
+
+header{
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+
+header img {
+    max-width: 200px;
+}
+
+h1, 
+h2{
+    text-align: center;
+}
+
+/* Botões da página */
+.btn {
+    
+    background-color: #2727FF;
+    border-style: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.btn, 
+.btn a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.btn:hover{
+    background-color: #000080;
+}
+
+.btn:active{
+    background-color: #2727FF;
+}
+
+.btn-curso{
+  width: 100px;
+  float: right;
+}
+
+/* Card centralizado*/
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    min-height: 150px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+.tabuada-area{
+  margin:10px;
+}
+
+#msgError {
+    display:none;
+    text-align:center;
+    color:#ff0000;
+    background-color: #ffbbbb;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 15px;
+}

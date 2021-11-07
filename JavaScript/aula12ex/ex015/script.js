@@ -13,6 +13,7 @@ function verificar(){
         img.setAttribute('id', 'foto')
         if (formgenero[0].checked){
             genero = 'Homem'
+            
             if (idade >=0 && idade < 1) {
                 img.setAttribute('src', '')
             }
@@ -45,6 +46,7 @@ function verificar(){
             }
         } else if (formgenero[1].checked{
             genero = 'Mulher'
+
             if (idade >=0 && idade < 1) {
                 img.setAttribute('src', '')
             }
@@ -75,8 +77,9 @@ function verificar(){
             else {
                 img.setAttribute('src', '')
             }
-        } else{
+        } else {
             genero = 'Não-binário'
+
             if (idade >=0 && idade < 1) {
                 img.setAttribute('src', '')
             }

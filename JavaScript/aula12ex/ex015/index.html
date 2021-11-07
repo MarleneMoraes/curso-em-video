@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Verificador de Idade | Curso em Video JS</title>
+</head>
+<body>
+    <header>
+        <img src="header.png" alt="logo do curso em video">
+        <button class="curso"><a
+                href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1">Playlist do
+                curso</a></button>
+    </header>
+    
+    <section>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="anonasc" id="anonasc" min="0">
+            </p>
+            <p>Gênero
+                <input type="radio" name="genero" id="feminino" checked>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="naobinario">
+                <label for="naobinario">Não-binário</label>
+            </p>
+            
+            <button value="verificar" onclick="verificar()">Verificar</button>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVídeo | JavaScript | 2021</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
