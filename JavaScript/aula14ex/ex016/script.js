@@ -26,18 +26,18 @@ function contar() {
         if (i < f) {
             //Contagem progressiva
             for (let count = i; count <= f; count += p){
-                resultado.innerHTML += `${c} `;
+                resultado.innerHTML += `${count} >> `;
             }
  
         } else {
             //Contagem regressiva
             for (let count = i; count >= f; count -= p){
-                resultado.innerHTML += `${c} `;
+                resultado.innerHTML += `${count} >> `;
             }
 
         }
 
-        resultado.innerHTML += `\u{1F3C1}</p>`
+        resultado.innerHTML += ` \u{1F3C1}</p>`
     }
 }
 
