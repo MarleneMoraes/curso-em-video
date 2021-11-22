@@ -19,11 +19,12 @@
     <section>
         <h1>Verificador de números</h1>
         <div id="item">
+            <p id="msg-error"></p>
             <label id="labelNumero" for="txtNumero">Número (entre 1 e 100): </label>
-            <input id="txtInicio" type="number" name="numero"size=10>
+            <input id="txtNumero" type="number" name="numero"size=10>
             <input class="btn btn-add" type="button" value="Adicionar" onclick="adicionar()">
 
-            <select name="lista" id="lista" size="2"></select>
+            <select id="lista" name="lista"  size="5"></select>
 
             <input class="btn btn-final" type="button" value="Finalizar" onclick="finalizar()">
         </div>
