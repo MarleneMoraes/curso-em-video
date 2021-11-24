@@ -59,3 +59,9 @@ SELECT nacionalidade, count(*) FROM gafanhotos
 WHERE nacionalidade != 'Brasil'
 GROUP BY nacionalidade
 HAVING count(nacionalidade) > 3;
+
+-- Lista agrupada pela altura dos gafanhotos, mostrando quantas pessoas pesam mais de 100kg e estão acima da média de altura de todos os cadastrados
+SELECT peso, count(*) FROM gafanhotos
+WHERE peso > 100
+GROUP BY altura
+HAVING altura > (SELECT avg(altura) FROM gafanhotos);
