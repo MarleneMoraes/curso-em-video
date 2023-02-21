@@ -16,7 +16,7 @@ O repositório é composto de cursos realizados do canal **Curso em Vídeo**, do
 
 - [x] MySQL [40 horas]
 
-- [ ] Redes de Computadores [20 horas]
+- [x] Redes de Computadores [20 horas]
   
 
 :warning: O conteúdo é oriundo do material do (repositório do GitHub de Gustavo Guanabara)[https://gustavoguanabara.github.io], que foi disponibilizado e autorizado os usos do mesmo para ensino básico para alunos iniciantes para fins educacionais, desde que cite a autoria. O material não poderá ser utilizado para ganhos financeiros e/ou sem a indicação da autoria.
