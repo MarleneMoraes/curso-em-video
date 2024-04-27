@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+body{
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+
+/*Título*/
+
+h1{
+    background-color: green;
+    color: white;
+    padding: 2%;
+}
+
+
+/*Texto*/
+
+p{
+    padding:4%;
+}
+
+/*botão voltar*/
+img{
+    padding:4%;
+    margin: 2%;
+}
+
+
+/*Rodapé*/
+
+footer{
+    background-color: green;
+    color: white;
+    font-size: small;
+    padding: 1%;
+    display: flex;
+    align-items: flex-end;
+    right: 10px;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:black;
+}
