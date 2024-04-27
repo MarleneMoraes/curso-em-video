@@ -16,6 +16,8 @@ O repositório é composto de cursos realizados do canal **Curso em Vídeo**, do
 
 - [x] MySQL [40 horas]
 
+- [ ] Python 3 - Mundo 1 [40 horas]
+
 - [x] Redes de Computadores [20 horas]
   
 
