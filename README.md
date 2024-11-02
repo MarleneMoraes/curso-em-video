@@ -6,7 +6,7 @@ O repositório é composto de cursos realizados do canal **Curso em Vídeo**, do
 
 - [x] HTML5 [40 Horas]
 
-- [ ] HTML + CSS [200 horas]
+- [x] HTML + CSS  - Módulo 1 [40 horas]
 
 - [x] Java Básico [40 horas]
 
